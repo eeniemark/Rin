@@ -59,7 +59,7 @@ function Footer() {
                             setDoubleClickTimes(doubleClickTimes + 1)
                         }
                     }}>
-                        © 2024 - {new Date().getFullYear()} Powered by <a className='hover:underline' href="https://www.980703.xyz" target="_blank">PuPu</a>
+                        © 2024 - {new Date().getFullYear()} Powered by <a className='hover:underline' href="https://www.980703.xyz" target="_blank">PuPu</a>. Everything is okkk!
                     </span>
                     {config.get<boolean>('rss') && <>
                         <Spliter />
